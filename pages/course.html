@@ -24,12 +24,82 @@
             </div>
         </header>
 
-        <div class = "titlecards">
-            <div>
-                <div>
-                    
+        <div class="grid">
+            <div class="gird__row">
+                <div class="grid__col">
+                    <h2>Námskeið</h2>
+                    <div class="text">
+                        <p>Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttir. Fyrir fólk á öllum aldri. Skráðu þig núna! Mynd af Prílihúsinu</p>
+                    </div>                    
+                </div>
+                <div class="grid__col">
+                    <img class="card__image" src="../img/climbing-gym.jpg" alt="">
                 </div>
             </div>
-        </div>   
+            <div class="grid__row">
+                <div class="gird__col">
+                    <h2>Almennar upplýsingar</h2>
+                    <div>
+                        <label for="name">Nafn:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="adress">Heimilisfang:</label>
+                        <input type="text" name="adress" id="adress" required>
+                    </div>
+                    <div>
+                        <label for="age">Aldur:</label>
+                        <input type="text" name="age" id="age" required>
+                    </div>
+                    <div>
+                        <label for="courses">Námskeið:</label>
+                        <select name="courses" id="courses">
+                            <option>V0-V1</option>
+                            <option>V2-V4</option>
+                            <option>V5-V7</option>
+                            <option>Krakkanámskeið</option>
+                            <option>Fjallaklifur</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grid__col">
+                    <h2>Greiðsluupplýsingar</h2>
+                    <div>
+                        <label for="cardnr">Kortanúmer:</label>
+                        <input type="text" name="cardnr" id="cardnr" required>
+                    </div>
+                    <div>
+                        <label for="cardow">Korthafi:</label>
+                        <input type="text" name="cardow" id="cardow" required>
+                    </div>
+                    <div>
+                        <label>Gildistími:</label>
+                        <label for="month">Mán</label>
+                        <select name="month" id="month">
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                        <label for="year">Ár</label>
+                        <select name="year" id="year">
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <lable>Skrá</lable>  
      </main>
 </body>
