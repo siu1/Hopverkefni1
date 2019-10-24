@@ -7,6 +7,7 @@
   box-sizing: inherit;
 }
 
+
 h1{
   text-align: center;
   padding: 7px;
@@ -38,19 +39,7 @@ header{
   list-style-type: none;
 }
 
-.titlecards{
-  display: flex;
-  flex-direction: column;
-  display: inline;
-
-}
-.titlecards li a {
-  display: inline-block;
-  padding: 5px;
-  text-decoration: none;
-}
-
-.card_image{
+.image{
   padding-right: 20px;
   flex: 0 0 150px;
 }
@@ -79,7 +68,50 @@ a:active{
   text-decoration: none;
 }
 
-.firstlink{
-  font-weight: bold;
-  font-style: underline;
+
+.text {
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* grid fyrir efni */
+
+.grid__row {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.grid__col {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.grid__row:nth-child(2n) .grid__col:first-child {
+  order: 2;
+}
+
+@media (min-width: 1000px) {
+  .grid__row {
+    flex-direction: row;
+  }
+
+  .grid__col {
+    margin-bottom: 40px;
+    width: 50%;
+  }
+
+  .grid__row:nth-child(2n) .grid__col:first-child {
+    order: 0;
+  }
 }
