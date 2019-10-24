@@ -7,6 +7,12 @@
   box-sizing: inherit;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 
 h1{
   text-align: center;
@@ -17,7 +23,7 @@ header{
   background-color: #ff5000;
 }
 
-#firstlink{
+#activelink{
   font-weight: bold;
   text-decoration: underline;
 }
