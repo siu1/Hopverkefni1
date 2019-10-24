@@ -7,11 +7,26 @@
   box-sizing: inherit;
 }
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', helvetica, arial, sans-serif;
+  font-size: 16px;
 }
+
+main {
+  margin: 0 auto;
+  max-width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (min-width: 1490px) {
+  main {
+    padding: 0;
+  }
+}
+
+
 
 
 h1{
@@ -45,11 +60,6 @@ header{
   list-style-type: none;
 }
 
-.image{
-  padding-right: 20px;
-  flex: 0 0 150px;
-}
-
 a:link{
   font: Oswald;
   color: #000000;
@@ -75,30 +85,38 @@ a:active{
 }
 
 
+
 .text {
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .text p {
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .image {
-  max-width: 100%;
+  max-width: 50%;
   margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 /* grid fyrir efni */
 
+.grid{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .grid__row {
   display: flex;
-  flex-direction: column;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .grid__col {
-  width: 100%;
+  width: 50%;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -120,4 +138,8 @@ a:active{
   .grid__row:nth-child(2n) .grid__col:first-child {
     order: 0;
   }
+}
+
+.offset50{
+  margin-left: 50%;
 }
