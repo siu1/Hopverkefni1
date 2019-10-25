@@ -19,9 +19,91 @@
                 <li><a href="products.html">Vörur</a></li>
                 <li><a href="course.html">Námskeið</a></li>
                 <li><a href="staff.html">Starfsfólk</a></li>
-                <li><a id="firstlink" href="cart.html">karfa(6)</a></li>
+                <li><a id="activelink" href="cart.html">karfa(6)</a></li>
               </ul>
             </div>
         </header>
+        <h2>Vörur í körfu</h2>
+        <div class="grid">
+          <div class="grid__row">
+            <div class="grid__col">
+              <img class="image" src="../img/Backpack.jpg" alt="">
+            </div>
+            <div class="grid__col">
+              <h2>Bakpoki</h2>
+              <div>
+                <p>Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
+              </div>
+              <h3>49.900kr.-</h3>
+            </div>
+          </div>
+          <div class="grid__row">
+            <div class="grid__col">
+              <img class="image" src="../img/chalkbag.jpg" alt="">
+            </div>
+            <div class="grid__col">
+              <h2>Kalkpoki</h2>
+              <div>
+                <p>Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
+              </div>
+              <h3>4.900kr.-</h3>
+            </div>
+          </div>
+          <div class="grid__row">
+            <div class="grid__col">
+              <h2>Sendingarupplýsingar</h2>
+              <div>
+                <label for="name">Nafn:</label>
+                <input type="text" name="name" id="name" required>
+              </div>
+              <div>
+                <label for="adress">Heimilisfang:</label>
+                <input type="text" name="adress" id="adress" required>
+              </div>
+              <div>
+                  <label for="postal">Póstnúmer:</label>
+                  <select name="postal" id="postal">
+                      <option>-Velja póstnúmer-</option>
+                  </select>
+              </div>
+            </div>
+            <div class="grid__col">
+              <h2>Greiðsluupplýsingar</h2>
+              <div>
+                <label for="cardnr">Kortanúmer:</label>
+                <input type="text" name="cardnr" id="cardnr" required>
+              </div>
+              <div>
+                <label for="cardow">Korthafi:</label>
+                <input type="text" name="cardow" id="cardow" required>
+              </div>
+              <div>
+                <label>Gildistími:</label>
+                <label for="month">Mán</label>
+                <select name="month" id="month">
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+                <label for="year">Ár</label>
+                 <select name="year" id="year">
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
     </main>
 </body>
