@@ -29,8 +29,17 @@ h1{
   padding: 7px;
 }
 
+h3{
+  padding: 10px;
+  font-size: 60;
+}
+
 header{
   background-color: #ff5000;
+}
+
+footer{
+  background-color: #00b7ff;
 }
 
 #activelink{
@@ -57,13 +66,26 @@ header{
   margin: 0;
   padding: 0;
   *display: inline;
+  list-style-type: none;
 }
 
 .titlelinks li {
   float: left;
   padding: 5px;
   margin: 3px;
+}
+
+.footerlinks ul{
   list-style-type: none;
+  padding-bottom: 50px; 
+}
+
+.footerlinks li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;;
 }
 
 a:link{
@@ -226,6 +248,7 @@ button:hover{
   padding-right: 10px;
   padding-left: 10px;
 }
+
 .col1__cart{
   width: 33.33333333333%;
   margin-top: 40px;
@@ -300,3 +323,7 @@ button:hover{
   max-height: 320px;
   overflow: auto;
 }
+
+
+
+
