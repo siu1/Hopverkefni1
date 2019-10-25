@@ -31,7 +31,7 @@ h1{
 
 h3{
   padding: 10px;
-  font-size: 60;
+  font-size: 24px;
 }
 
 header{
@@ -75,13 +75,20 @@ footer{
   margin: 3px;
 }
 
+.footerlinks{
+  display: inline-block;
+  margin-top: 30px;
+}
+
 .footerlinks ul{
   list-style-type: none;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
+  padding-right: 175px; 
 }
 
 .footerlinks li{
     padding: 10px;
+    list-style-type: none;
 }
 
 a{
@@ -90,17 +97,16 @@ a{
 
 a:link{
   font: Oswald;
-  color: #000000;
 }
 
 a:visited{
   font: Oswald;
-  color: #000000;
+  filter: invert(0%);
 }
 
 a:hover{
   font: Oswald;
-  color: #ffffff;
+  filter: invert(100%);
 }
 
 
@@ -213,7 +219,7 @@ button:hover{
 
 .text {
   margin-bottom: 20px;
-  margin-top: 40px;
+ /* margin-top: 40px;*/
 }
 
 .text p {
@@ -248,6 +254,7 @@ button:hover{
   padding-right: 10px;
   padding-left: 10px;
 }
+
 
 .col1__cart{
   width: 33.33333333333%;
