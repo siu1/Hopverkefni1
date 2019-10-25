@@ -131,28 +131,39 @@ button:hover{
 }
 
 .staff__nr1 {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 }
 .staff__nr2 {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 }
 .staff__nr3 {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 }
 .staff__nr4 {
-  margin: 0 auto;
-  width: 50%;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media(min-width: 700px){
+  .staff__nr1{
+    width: 50%;
+  }
+  .staff__nr2{
+    width: 50%;
+  }
+  .staff__nr3{
+    width: 50%;
+  }
+  .staff__nr4{
+    width: 50%;
+  }
 }
 
 .nr1__img{
@@ -204,7 +215,7 @@ button:hover{
   opacity: 1;
 }
 .staff__img {
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 20px;
   margin-top: 40px;
 }
@@ -284,16 +295,20 @@ button:hover{
   margin-bottom: 20px;
 }
 
+.cards--first-flex-item{
+  order: -1;
+}
+
 @media (min-width: 700px){
+  .cards {
+    margin-bottom: 40px;
+  }
   .cards__col {
     width: 50%;
   }
 }
 
 @media (min-width: 1000px) {
-  .cards {
-    margin-bottom: 40px;
-  }
   .grid__row {
     flex-direction: row;
   }
@@ -320,10 +335,13 @@ button:hover{
   width: 100%;
   height: 100%;
   max-width: 470px;
-  max-height: 320px;
   overflow: auto;
 }
 
+.card__image {
+  padding-right: 20px;
+  flex: 0 0 150px;
+}
 
 
 
