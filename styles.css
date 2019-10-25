@@ -7,12 +7,6 @@
   box-sizing: inherit;
 }
 
-html {
-  box-sizing: border-box;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-size: 16px;
-}
-
 main {
   margin: 0 auto;
   max-width: auto;
@@ -31,6 +25,7 @@ main {
 
 h1{
   text-align: center;
+  font-size: 60px;
   padding: 7px;
 }
 
@@ -39,12 +34,17 @@ header{
 }
 
 #activelink{
-  font-weight: bold;
   text-decoration: underline;
+}
+
+#cartlink{
+    text-align: left;
 }
 
 .titlelinks{
   text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .titlelinks ul {
@@ -53,6 +53,7 @@ header{
   padding: 0;
   *display: inline;
 }
+
 .titlelinks li {
   float: left;
   padding: 5px;
@@ -97,7 +98,7 @@ a:active{
 }
 
 .image {
-  max-width: 50%;
+  max-width: 590px;
   margin-bottom: 20px;
   margin-top: 40px;
 }
@@ -117,8 +118,7 @@ a:active{
 }
 
 .grid__col {
-  display: flex;  
-  width: 50%;
+  width: 100%;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -143,5 +143,5 @@ a:active{
 }
 
 .offset50{
-  margin-left: 50%;
+  padding-left: 610px;
 }
