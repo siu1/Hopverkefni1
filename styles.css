@@ -151,22 +151,26 @@ label{
   margin-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
 }
 .staff__nr2 {
   width: 100%;
   margin-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
 }
 .staff__nr3 {
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
 }
 .staff__nr4 {
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
 }
 
 @media(min-width: 700px){
@@ -192,6 +196,12 @@ label{
 }
 .nr1__text{
   opacity: 0;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
 }
 .staff__nr1:hover .nr1__img{
   opacity: 0;
@@ -204,6 +214,12 @@ label{
 }
 .nr2__text{
   opacity: 0;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
 }
 .staff__nr2:hover .nr2__img{
   opacity: 0;
@@ -216,6 +232,12 @@ label{
 }
 .nr3__text{
   opacity: 0;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
 }
 .staff__nr3:hover .nr3__img{
   opacity: 0;
@@ -228,6 +250,12 @@ label{
 }
 .nr4__text{
   opacity: 0;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
 }
 .staff__nr4:hover .nr4__img{
   opacity: 0;
