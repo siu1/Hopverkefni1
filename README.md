@@ -1,6 +1,16 @@
 
 # Hópverkefni 1
-vvv
+
+## Uppsetning verkefnis
+
+verkefninu er skipt upp í möppur sem innihalda álíka hluti, möppunar eru efni,img,pages,scss,utlit. Efni inniheldur allt það efni sem á að vera á síðunum okkar, img inniheldur allar myndir sem notaðar eru í verkefninu, pages inniheldur allar html síðurnar okkar að fráskildri index, scss er með scss og utlit er hvernig við viljum að verkefnið okkar líti út
+
+## Upplýsingar um hóp
+
+Andri Már Sigurðsson ams59@hi.is 
+Sindri Unnsteinsson siu1@hi.is 
+
+
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
