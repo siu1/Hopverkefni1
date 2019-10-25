@@ -201,9 +201,9 @@ a:active{
 }
 
 .image {
-  max-width: 50%;
+  max-width: 100%;
   margin-bottom: 20px;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 
 /* grid fyrir efni */
@@ -221,8 +221,9 @@ a:active{
 }
 
 .grid__col {
-  display: flex;  
+  /*display: flex;*/  
   width: 50%;
+  margin-top: 40px;
   padding-right: 10px;
   padding-left: 10px;
 }
@@ -246,6 +247,6 @@ a:active{
   }
 }
 
-.offset50{
+/*.offset50{
   margin-left: 50%;
-}
+}*/
