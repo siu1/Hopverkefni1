@@ -237,6 +237,18 @@ button:hover{
   padding-right: 10px;
   padding-left: 10px;
 }
+.col1__cart{
+  width: 33.33333333333%;
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col2__cart{
+  width: 66.666666666667%;
+  margin-top: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .grid__row:nth-child(2n) .grid__col:first-child {
   order: 2;
