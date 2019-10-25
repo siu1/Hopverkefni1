@@ -45,9 +45,16 @@ h1{
   padding: 7px;
 }
 
+h2{
+  font-size: 34px;
+}
 h3{
   padding: 10px;
   font-size: 24px;
+}
+
+label{
+  font-size: 20px;
 }
 
 header{
@@ -154,7 +161,6 @@ label{
   padding-bottom: 50px;
 }
 
-/*test herna*/
 .staff__row {
   display: flex;
   flex-direction: column;
@@ -283,12 +289,10 @@ label{
   max-width: 100%;
   margin-bottom: 20px;
 }
-/*test buið her*/
 
 
 .text {
   margin-bottom: 20px;
- /* margin-top: 40px;*/
 }
 
 .text p {
@@ -299,7 +303,6 @@ label{
 .image {
   max-width: 100%;
   margin-bottom: 20px;
-  /*margin-top: 40px;*/
 }
 
 /* grid fyrir efni */
@@ -337,10 +340,6 @@ label{
   padding-left: 10px;
 }
 
-/*.grid__row:nth-child(2n+1) .grid__col:first-child {
-  order: 2;
-}*/
-
 .cards {
   overflow: hidden;
   flex-wrap: wrap;
@@ -351,16 +350,18 @@ label{
 
 .cards__row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: column;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .cards__col {
-  padding-right: 10px;
-  padding-left: 10px;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.card__text{
+  max-width: 400px;
 }
 
 .cards--first-flex-item{
@@ -370,6 +371,9 @@ label{
 @media (min-width: 700px){
   .cards {
     margin-bottom: 40px;
+  }
+  .cards__row{
+    flex-wrap: wrap;
   }
   .cards__col {
     width: 50%;
@@ -431,8 +435,5 @@ label{
   word-break: break-word;
 }
 
-.penis{
-  font-size: 25px;
-}
 
 
