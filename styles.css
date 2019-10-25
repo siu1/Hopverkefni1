@@ -85,13 +85,19 @@ a:hover{
 button{
   background-color: #00b7ff;
   color: #000000;
-  border-radius: 6px;
+  width: 35%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;  
 }
 
 button:hover{
   background-color: #ff5000;
   color: #ffffff;
-  border-radius: 6px;
+  width: 35%;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;  
 }
 
 /*test herna*/
