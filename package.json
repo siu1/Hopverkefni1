@@ -1,0 +1,26 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "\"Sindri Test\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\"",
+    "sass": "node-sass styles.scss styles1.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siu1/Hopverkefni1.git"
+  },
+  "author": "Sindri Unnsteinsson og Andri Már Sigurðsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siu1/Hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/siu1/Hopverkefni1#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
