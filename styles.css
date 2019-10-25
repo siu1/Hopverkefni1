@@ -145,7 +145,6 @@ label{
   padding-bottom: 50px;
 }
 
-/*test herna*/
 .staff__row {
   display: flex;
   flex-direction: column;
@@ -274,12 +273,10 @@ label{
   max-width: 100%;
   margin-bottom: 20px;
 }
-/*test buið her*/
 
 
 .text {
   margin-bottom: 20px;
- /* margin-top: 40px;*/
 }
 
 .text p {
@@ -290,7 +287,6 @@ label{
 .image {
   max-width: 100%;
   margin-bottom: 20px;
-  /*margin-top: 40px;*/
 }
 
 /* grid fyrir efni */
@@ -327,10 +323,6 @@ label{
   padding-right: 10px;
   padding-left: 10px;
 }
-
-/*.grid__row:nth-child(2n+1) .grid__col:first-child {
-  order: 2;
-}*/
 
 .cards {
   overflow: hidden;
