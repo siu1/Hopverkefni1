@@ -131,18 +131,20 @@ button:hover{
 /*test herna*/
 .staff__row {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .staff__nr1 {
   width: 100%;
+  margin-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
 .staff__nr2 {
   width: 100%;
+  margin-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -158,6 +160,9 @@ button:hover{
 }
 
 @media(min-width: 700px){
+  .staff__row{
+    flex-direction: row;
+  }
   .staff__nr1{
     width: 50%;
   }
@@ -221,9 +226,8 @@ button:hover{
   opacity: 1;
 }
 .staff__img {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 20px;
-  margin-top: 40px;
 }
 /*test buið her*/
 
