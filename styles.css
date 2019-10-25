@@ -7,12 +7,6 @@
   box-sizing: inherit;
 }
 
-html {
-  box-sizing: border-box;
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-size: 16px;
-}
-
 main {
   margin: 0 auto;
   max-width: auto;
@@ -31,6 +25,7 @@ main {
 
 h1{
   text-align: center;
+  font-size: 60px;
   padding: 7px;
 }
 
@@ -39,12 +34,22 @@ header{
 }
 
 #activelink{
-  font-weight: bold;
   text-decoration: underline;
+}
+
+#cartlink{
+  float: right;
+}
+
+.cart{
+    text-align: right;
 }
 
 .titlelinks{
   text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .titlelinks ul {
@@ -53,6 +58,7 @@ header{
   padding: 0;
   *display: inline;
 }
+
 .titlelinks li {
   float: left;
   padding: 5px;
@@ -63,32 +69,30 @@ header{
 a:link{
   font: Oswald;
   color: #000000;
-  text-decoration: none;
 }
 
 a:visited{
   font: Oswald;
   color: #000000;
-  text-decoration: none;
 }
 
 a:hover{
   font: Oswald;
   color: #ffffff;
-  text-decoration: none;
 }
 
-a:active{
-  font: Oswald;
+
+button{
+  background-color: #00b7ff;
+  color: #000000;
+  border-radius: 6px;
+}
+
+button:hover{
+  background-color: #ff5000;
   color: #ffffff;
-  text-decoration: none;
+  border-radius: 6px;
 }
-
-.firstlink{
-  font-weight: bold;
-  font-style: underline;
-}
-
 
 /*test herna*/
 .staff__row {
@@ -259,6 +263,3 @@ a:active{
   }
 }
 
-/*.offset50{
-  margin-left: 50%;
-}*/
