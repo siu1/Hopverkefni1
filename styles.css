@@ -97,6 +97,7 @@ a{
 
 a:link{
   font: Oswald;
+  color: #000000;
 }
 
 a:visited{
@@ -113,19 +114,24 @@ a:hover{
 button{
   background-color: #00b7ff;
   color: #000000;
-  width: 35%;
-  padding: 15px;
-  font-size: 20px;
+  width: 225px;
+  padding: 10px;
+  font-size: 16px;
   border-radius: 5px;  
 }
 
 button:hover{
   background-color: #ff5000;
   color: #ffffff;
-  width: 35%;
-  padding: 15px;
-  font-size: 20px;
+  width: 225px;
+  padding: 10px;
+  font-size: 16px;
   border-radius: 5px;  
+}
+
+label{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /*test herna*/
@@ -284,9 +290,9 @@ button:hover{
   padding-left: 10px;
 }
 
-.grid__row:nth-child(2n) .grid__col:first-child {
+/*.grid__row:nth-child(2n+1) .grid__col:first-child {
   order: 2;
-}
+}*/
 
 .cards {
   max-width: 1200px;
@@ -331,8 +337,8 @@ button:hover{
     width: 50%;
   }
 
-  .grid__row:nth-child(2n) .grid__col:first-child {
-    order: 0;
+  .grid__row:nth-child(2n+1) .grid__col:first-child {
+    order: 1;
   }
   .cards__col {
     width: 33.3333333%;
